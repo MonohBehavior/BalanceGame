@@ -1,0 +1,144 @@
+{
+    "levelDatas": [
+        {
+            "StageType": 0,
+            "PlateInfo": {
+                "NumberOfPlates": 1,
+                "Mass": 50,
+                "ConstantForce": 200,
+                "Size": 1.3
+            },
+            "FallingSpeed": 1.0,
+            "SurviveAimSeconds": 5.0,
+            "FailLessThen": 5,
+            "DropItemList": [
+                {
+                    "GameObjectType": 0,
+                    "Color": 0,
+                    "Size": 0.0,
+                    "GimmickType": 0
+                },
+                {
+                    "GameObjectType": 1,
+                    "Color": 0,
+                    "Size": 0.0,
+                    "GimmickType": 0
+                },
+                {
+                    "GameObjectType": 2,
+                    "Color": 0,
+                    "Size": 0.0,
+                    "GimmickType": 0
+                },
+                {
+                    "GameObjectType": 3,
+                    "Color": 0,
+                    "Size": 0.0,
+                    "GimmickType": 0
+                }
+            ]
+        },
+        {
+            "StageType": 1,
+            "PlateInfo": {
+                "NumberOfPlates": 1,
+                "Mass": 50,
+                "ConstantForce": 200,
+                "Size": 1.3
+            },
+            "FallingSpeed": 1.0,
+            "SurviveAimSeconds": 5.0,
+            "FailLessThen": 5,
+            "DropItemList": [
+                {
+                    "GameObjectType": 0,
+                    "Color": 0,
+                    "Size": 0.0,
+                    "GimmickType": 0
+                },
+                {
+                    "GameObjectType": 3,
+                    "Color": 0,
+                    "Size": 0.0,
+                    "GimmickType": 0
+                },
+                {
+                    "GameObjectType": 0,
+                    "Color": 0,
+                    "Size": 0.0,
+                    "GimmickType": 0
+                }
+            ]
+        },
+        {
+            "StageType": 2,
+            "PlateInfo": {
+                "NumberOfPlates": 1,
+                "Mass": 50,
+                "ConstantForce": 200,
+                "Size": 1.3
+            },
+            "FallingSpeed": 1.0,
+            "SurviveAimSeconds": 5.0,
+            "FailLessThen": 5,
+            "DropItemList": [
+                {
+                    "GameObjectType": 0,
+                    "Color": 0,
+                    "Size": 0.0,
+                    "GimmickType": 0
+                },
+                {
+                    "GameObjectType": 1,
+                    "Color": 0,
+                    "Size": 0.0,
+                    "GimmickType": 0
+                },
+                {
+                    "GameObjectType": 2,
+                    "Color": 0,
+                    "Size": 0.0,
+                    "GimmickType": 0
+                },
+                {
+                    "GameObjectType": 3,
+                    "Color": 0,
+                    "Size": 0.0,
+                    "GimmickType": 0
+                }
+            ]
+        },
+        {
+            "StageType": 2,
+            "PlateInfo": {
+                "NumberOfPlates": 1,
+                "Mass": 50,
+                "ConstantForce": 200,
+                "Size": 1.3
+            },
+            "FallingSpeed": 1.0,
+            "SurviveAimSeconds": 5.0,
+            "FailLessThen": 5,
+            "DropItemList": [
+                {
+                    "GameObjectType": 0,
+                    "Color": 0,
+                    "Size": 0.0,
+                    "GimmickType": 0
+                },
+                {
+                    "GameObjectType": 3,
+                    "Color": 0,
+                    "Size": 0.0,
+                    "GimmickType": 0
+                },
+                {
+                    "GameObjectType": 0,
+                    "Color": 0,
+                    "Size": 0.0,
+                    "GimmickType": 0
+                }
+            ]
+        }
+    ]
+}
