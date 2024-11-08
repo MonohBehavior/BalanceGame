@@ -15,9 +15,13 @@ namespace BalanceGame
 
         public void ChangeMode(StageClearType stageClearType)
         {
-            leftTimecheckObject.SetActive(stageClearType == StageClearType.Survive);
-            itemsLeftObject.SetActive(stageClearType == StageClearType.Drop);
-            failLessThenObject.SetActive(stageClearType == StageClearType.FailLessThan);
+            var isStageSurvive = stageClearType == StageClearType.Survive;
+            var isStageDrop = stageClearType == StageClearType.Drop;
+            var isStageFailLessThan = stageClearType == StageClearType.FailLessThan;
+
+            leftTimecheckObject.SetActive(isStageSurvive);
+            itemsLeftObject.SetActive(isStageDrop);
+            failLessThenObject.SetActive(isStageFailLessThan);
         }
 
         public void UpdateLeftTime(float ratio)

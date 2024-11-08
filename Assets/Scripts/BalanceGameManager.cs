@@ -20,10 +20,9 @@ namespace BalanceGame
         [SerializeField] private TextAsset jsonData;
 
         private List<DropItemObject> itemsList = new();
-
         private Coroutine itemFallingCo;
-
         private Dictionary<int, Stack<GameObject>> itemsPool = new();
+        private BalanceGameController balanceGameController;
 
         private void Start()
         {
@@ -35,6 +34,8 @@ namespace BalanceGame
             GameEvents.GameOverEvent += StopTheStage;
             GameEvents.StageClearEvent += OnStageClear;
             GameEvents.RestartEvent += OnRestart;
+
+            balanceGameController = BalanceGameController.Instance;
         }
 
         private void UpdateStageInfo()

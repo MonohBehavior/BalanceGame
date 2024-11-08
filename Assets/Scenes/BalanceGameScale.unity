@@ -3030,6 +3030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1742151951}
   - component: {fileID: 1742151952}
+  - component: {fileID: 1742151953}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3075,6 +3076,20 @@ MonoBehaviour:
   debuggingCube: {fileID: 751710427}
   droppingPipe: {fileID: 543656318}
   jsonData: {fileID: 4900000, guid: e8927fb8c8d8d514ebe5bad124495133, type: 3}
+--- !u!114 &1742151953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742151950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b78d61c6eb17df744ac7b14d595b3c1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentMode: 0
+  CurrentIntentions: 0
 --- !u!1 &1830886692
 GameObject:
   m_ObjectHideFlags: 0
